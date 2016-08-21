@@ -1,0 +1,8 @@
+Jefe
+	Jefecito
+		Empleado de jefecito
+		Otro Empleado de jefecito
+			asistente de otro empleado
+	Otro jefecito
+		Empleado de otro jefecito
+		Otro empleado de otro jefecito
