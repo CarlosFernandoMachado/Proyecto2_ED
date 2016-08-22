@@ -21,7 +21,7 @@ public class Proyecto_2 {
         // TODO code application logic here
         VSAList herarquia = leerarchivo();
         Arbol arbol = new Arbol(getRoot(herarquia));
-        CreateTree(arbol.getRoot(), herarquia, 1, 0);
+        CreateTree(arbol.getRoot(), herarquia, 1, 1);
         PrintTree(arbol.getRoot(),0);
         System.out.println("");
     }
@@ -68,6 +68,9 @@ public class Proyecto_2 {
                 if (temp.charAt(j) == '\t') {
                     cont2 += 1;
                 }
+            }
+            if (cont-1 == cont2) {
+                break;
             }
             if (cont2 == cont) {
                 String temporal = temp.replace('\t', '\0');
