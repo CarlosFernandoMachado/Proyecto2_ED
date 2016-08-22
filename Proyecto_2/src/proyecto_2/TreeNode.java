@@ -26,6 +26,12 @@ public class TreeNode {
         this.father = father;
         this.hijos = hijos;
     }
+
+    public TreeNode(TreeNode nodo) {
+        data = nodo.getData();
+        father = nodo.getFather();
+        hijos = nodo.getHijos();
+    }
     
     public Object getData() {
         return data;
